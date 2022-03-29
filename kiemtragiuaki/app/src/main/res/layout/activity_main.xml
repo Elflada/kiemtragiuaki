@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="@string/th_ng_tin"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"></TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:hint="Tên"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/sdt"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:hint="@string/s_t"
+        android:inputType="number"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/a_ch"
+        android:inputType="TODO"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:hint="Gmail"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:textSize="16sp"
+        app:backgroundTint="#3F51B5" />
+
+</LinearLayout>
